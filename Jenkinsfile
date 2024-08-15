@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Sayantan2k24/java-maven-eks-Ekart.git'
+                git branch: 'main', url: 'https://github.com/2coolkalamkaar/pipeline-project.git'
             }
         }
         
